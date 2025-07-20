@@ -21,4 +21,17 @@ def greet():
     return f"Hello {user_input}, Welcome to this app for Docker demonstration. Please consider like and subscribe to the channel."
 
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=5001)
+    app.run(host='0.0.0.0', port=5003)
+
+
+
+
+    #to run the app, use the command:
+   # docker build -t flask-app . 
+#    docker run 5001:5001 flask-docker-demo
+
+
+
+#    # setup the dockerfile with the following content:
+#    docker pull hello-world
+# docker run hello-world
